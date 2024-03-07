@@ -1,0 +1,8 @@
+Take the data frame and plot `geom_point` for `y1` vs `x`
+
+```{r plot1}
+library(tidyverse)
+
+a <- tibble(x = 1:10, y1 = x^3)
+
+```
